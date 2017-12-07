@@ -1,12 +1,9 @@
 import argparse
 import atexit
 import os
-import paramiko
-import select
 import sys
 import subprocess
 import tempfile
-import time
 
 EXTRACT_SECRETS = "https://repo1.maven.org/maven2/name/neykov/extract-ssl-secrets/2.0.0/extract-ssl-secrets-2.0.0.jar"
 
